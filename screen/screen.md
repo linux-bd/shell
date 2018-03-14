@@ -13,7 +13,7 @@ screen -S smscreen
 
 ### Detach From Screen
 ```sh
-ctrl + a + d
+CTRL + a + d
 ```
 
 ### Re-Attach to Screen
