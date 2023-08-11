@@ -1,7 +1,5 @@
-## du commands
-* Disk Usage Summary of Current Directory
+## Disk Usage of Current Directory Files & Folders including Hidden one
 ```sh
-du -sh * 
-du -sh
-du -sh /path
+du -shc .[^.]* * | sort -rh
+du -shc * | sort -rh
 ```
